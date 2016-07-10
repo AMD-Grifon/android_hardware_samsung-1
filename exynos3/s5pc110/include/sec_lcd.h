@@ -43,7 +43,6 @@ struct s3cfb_next_info {
  *
 */
 
-#define FBIO_WAITFORVSYNC       _IO  ('F', 32)
 #define SECFB_WIN_POSITION      _IOW ('F', 203, struct secfb_user_window)
 #define S3CFB_SET_VSYNC_INT     _IOW ('F', 206, uint32_t)
 #define S3CFB_GET_CURR_FB_INFO  _IOR ('F', 305, struct s3cfb_next_info)
